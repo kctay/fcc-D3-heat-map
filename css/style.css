@@ -1,0 +1,49 @@
+body {
+  background-color: #373737;
+  background-image: radial-gradient(dimgrey, crimson, #373737);
+  color: white;
+  font-family: 'Poor Story', cursive;
+}
+#title {
+  margin-top: 12px;
+  font-size: 30px;
+}
+p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+svg {
+  background-color: silver;
+  background-image: linear-gradient(darkgrey, lightgrey, white);
+  border-radius: 5px;
+  font-weight: 700;
+}
+.cell:hover {
+  stroke: black;
+  stroke-width: 1px;
+}
+#tooltip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  text-align: left;
+  padding: 4px 8px;
+  font-size: 14px;
+  color: white;
+  background: dimgrey;
+  box-shadow: 0px 0px 2px;
+  border-radius: 3px;
+  pointer-events: none;
+  font-family: none;
+}
+#legend {
+  font-size: 10px;
+  font-family: none;
+  pointer-events:none;
+}
+#y-axis, #x-axis {
+  stroke-width: 2px;
+  color: black;
+  font-family: 'Titillium Web', sans-serif;
+}
